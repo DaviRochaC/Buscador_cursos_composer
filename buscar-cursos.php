@@ -1,11 +1,12 @@
 #!/usr/bin/env php
 <?php
 
+require 'vendor/autoload.php';
+
 use Davi\BuscadorCursos\Buscador;
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 
-require __DIR__.'/vendor/autoload.php';
 $client = new Client(['base_uri' => 'https://www.alura.com.br']);
 $crawler =  new Crawler();
 
