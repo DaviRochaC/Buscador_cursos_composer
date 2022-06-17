@@ -36,5 +36,6 @@
         "cs":"Executa as verificacões do código quanto o padrao da PSR-12",
         "phan":"Executa as verificacões do código quanto a possiveis erros fatais",
         "right":"Executa as verificacoes do codigo,PHAN, PHPCS, PHPUNIT"
-    }
+    },
+    "bin": ["buscar-cursos.php"]
 }
